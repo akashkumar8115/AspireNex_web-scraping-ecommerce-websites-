@@ -49,7 +49,7 @@ function App() {
 
     const amazonproductleft = async () => {
         try {
-            const response = await axios.post('https://335a1026-46fd-4cb2-85cc-8520874a947c-00-2s0i48emtrsmg.janeway.replit.dev/amazon/product/left', { url });
+            const response = await axios.post('https://qg2m99-5000.csb.app/amazon/product/left', { url });
             setProductData(response.data);
             console.log('Response data:', productData);
             setLoading(false);
@@ -69,7 +69,7 @@ function App() {
 
     const flipcartproductleft = async () => {
         try {
-            const response = await axios.post('https://335a1026-46fd-4cb2-85cc-8520874a947c-00-2s0i48emtrsmg.janeway.replit.dev/flipcart/product/left', { url });
+            const response = await axios.post('https://qg2m99-5000.csb.app/flipcart/product/left', { url });
             setProductData(response.data);
             console.log('Response data:', productData);
             setLoading(false);
@@ -87,7 +87,7 @@ function App() {
 
     const amazonproductright = async () => {
         try {
-            const response = await axios.post('https://335a1026-46fd-4cb2-85cc-8520874a947c-00-2s0i48emtrsmg.janeway.replit.dev/amazon/product/right', { urlr });
+            const response = await axios.post('https://qg2m99-5000.csb.app/amazon/product/right', { urlr });
             setProductDatar(response.data);
             // console.log('Response data:', response.data);
             console.log(productDatar)
@@ -102,7 +102,7 @@ function App() {
 
     const flipcartproductright = async () => {
         try {
-            const response = await axios.post('https://335a1026-46fd-4cb2-85cc-8520874a947c-00-2s0i48emtrsmg.janeway.replit.dev/flipcart/product/right', { urlr });
+            const response = await axios.post('https://qg2m99-5000.csb.app/flipcart/product/right', { urlr });
             setProductDatar(response.data);
             // console.log('Response data:', response.data);
             console.log(productDatar)
