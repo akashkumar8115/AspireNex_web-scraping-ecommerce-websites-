@@ -36,7 +36,6 @@ function App() {
         console.log(containsSubstring)
         if (containsSubstring) {
             amazonproductright()
-
         }
         else {
             flipcartproductright()
@@ -49,10 +48,7 @@ function App() {
 
     const amazonproductleft = async () => {
         try {
-            const response = await axios.post('https://qg2m99-5000.csb.app/amazon/product/left', { url },{
-          headers: {
-            "Content-Type": "application/json",
-          },);
+            const response = await axios.post('https://aspirenex-backend.onrender.com/amazon/product/left', { url });
             setProductData(response.data);
             console.log('Response data:', productData);
             setLoading(false);
