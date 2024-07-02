@@ -49,7 +49,10 @@ function App() {
 
     const amazonproductleft = async () => {
         try {
-            const response = await axios.post('https://qg2m99-5000.csb.app/amazon/product/left', { url });
+            const response = await axios.post('https://qg2m99-5000.csb.app/amazon/product/left', { url },{
+          headers: {
+            "Content-Type": "application/json",
+          },);
             setProductData(response.data);
             console.log('Response data:', productData);
             setLoading(false);
