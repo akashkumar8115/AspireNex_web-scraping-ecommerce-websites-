@@ -86,7 +86,7 @@ function App() {
 
     const amazonproductright = async () => {
         try {
-            const response = await axios.post('https://aspirenex-backend.onrender.com/amazon/product/right', { urlr });
+            const response = await axios.post('https://aspire-nex-backend.vercel.app/amazon/product/right', { urlr });
             setProductDatar(response.data);
             // console.log('Response data:', response.data);
             console.log(productDatar)
