@@ -48,7 +48,7 @@ function App() {
 
     const amazonproductleft = async () => {
         try {
-            const response = await axios.post('http://localhost:5000/amazon/product/left', { url });
+            const response = await axios.post('https://b055303f-f518-45ac-a3ed-2835806c6a39-00-9qejej6quj8d.picard.replit.dev/amazon/product/left', { url });
             setProductData(response.data);
             console.log('Response data:', productData);
             setLoading(false);
@@ -86,7 +86,7 @@ function App() {
 
     const amazonproductright = async () => {
         try {
-            const response = await axios.post('http://localhost:5000/amazon/product/right', { urlr });
+            const response = await axios.post('https://b055303f-f518-45ac-a3ed-2835806c6a39-00-9qejej6quj8d.picard.replit.dev/amazon/product/right', { urlr });
             setProductDatar(response.data);
             // console.log('Response data:', response.data);
             console.log(productDatar)
