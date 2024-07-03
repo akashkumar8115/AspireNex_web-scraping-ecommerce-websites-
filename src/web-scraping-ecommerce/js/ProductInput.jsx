@@ -68,7 +68,7 @@ function App() {
 
     const flipcartproductleft = async () => {
         try {
-            const response = await axios.post('https://aspirenex-backend.onrender.com/flipcart/product/left', { url });
+            const response = await axios.post('http://localhost:5000/flipcart/product/left', { url });
             setProductData(response.data);
             console.log('Response data:', productData);
             setLoading(false);
@@ -86,7 +86,7 @@ function App() {
 
     const amazonproductright = async () => {
         try {
-            const response = await axios.post('https://aspire-nex-backend.vercel.app/amazon/product/right', { urlr });
+            const response = await axios.post('http://localhost:5000/amazon/product/right', { urlr });
             setProductDatar(response.data);
             // console.log('Response data:', response.data);
             console.log(productDatar)
@@ -101,7 +101,7 @@ function App() {
 
     const flipcartproductright = async () => {
         try {
-            const response = await axios.post('https://aspirenex-backend.onrender.com/flipcart/product/right', { urlr });
+            const response = await axios.post('http://localhost:5000/flipcart/product/right', { urlr });
             setProductDatar(response.data);
             // console.log('Response data:', response.data);
             console.log(productDatar)
