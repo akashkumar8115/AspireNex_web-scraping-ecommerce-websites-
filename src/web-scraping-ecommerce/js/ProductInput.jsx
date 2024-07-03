@@ -48,7 +48,7 @@ function App() {
 
     const amazonproductleft = async () => {
         try {
-            const response = await axios.post('https://aspire-nex-backend.vercel.app/amazon/product/left', { url });
+            const response = await axios.post('http://localhost:5000/amazon/product/left', { url });
             setProductData(response.data);
             console.log('Response data:', productData);
             setLoading(false);
