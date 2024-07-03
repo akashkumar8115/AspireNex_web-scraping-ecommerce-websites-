@@ -48,7 +48,7 @@ function App() {
 
     const amazonproductleft = async () => {
         try {
-            const response = await axios.post('https://qg2m99-5000.csb.app/amazon/product/left', { url });
+            const response = await axios.post('http://localhost:5000/amazon/product/left', { url });
             setProductData(response.data);
             console.log('Response data:', productData);
             setLoading(false);
@@ -86,7 +86,7 @@ function App() {
 
     const amazonproductright = async () => {
         try {
-            const response = await axios.post('https://qg2m99-5000.csb.app/amazon/product/right', { urlr });
+            const response = await axios.post('http://localhost:5000/amazon/product/right', { urlr });
             setProductDatar(response.data);
             // console.log('Response data:', response.data);
             console.log(productDatar)
