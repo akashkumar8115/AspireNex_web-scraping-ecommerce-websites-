@@ -4,8 +4,11 @@
 
 This project is a web application that takes a URL of a product listed on an ecommerce website, fetches the entire data from the web page of that product, and displays it in a more readable and summarized way. It also allows for comparison between two or more similar products based on their specifications.
 
+### Screenshot
+![Ecommerce Scraper Screenshot](/screenshot.png)
+
 ### Video Demo
-[Click here to watch the demo](./website-scraping.mp4)
+[Click here to watch the demo]([./website-scraping.mp4](https://drive.google.com/drive/u/1/folders/11uk3csskXcxPUW0Ogvh5iaBwPgXGt5-6))
 
 ### Features
 
