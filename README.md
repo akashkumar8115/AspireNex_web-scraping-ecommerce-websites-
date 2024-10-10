@@ -8,7 +8,7 @@ This project is a web application that takes a URL of a product listed on an eco
 ![Ecommerce Scraper Screenshot](/screenshot.png)
 
 ### Video Demo
-[Click here to watch the demo]([./website-scraping.mp4](https://drive.google.com/drive/u/1/folders/11uk3csskXcxPUW0Ogvh5iaBwPgXGt5-6))
+[Click here to watch the demo](https://drive.google.com/drive/u/1/folders/11uk3csskXcxPUW0Ogvh5iaBwPgXGt5-6)
 
 ### Features
 
